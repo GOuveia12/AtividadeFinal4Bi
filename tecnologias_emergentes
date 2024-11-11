@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias Emergentes</title>
+    <!-- Link para o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Meu Portfólio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="matematica.html">Matemática</a></li>
+                        <li class="nav-item"><a class="nav-link" href="linguagens.html">Linguagens</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ciencias_humanas.html">Ciências Humanas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ciencias_natureza.html">Ciências da Natureza</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blockchain.html">Blockchain</a></li>
+                        <li class="nav-item"><a class="nav-link" href="automacao_robotica.html">Automação e Robótica</a></li>
+                        <li class="nav-item"><a class="nav-link" href="edge_computing.html">Edge Computing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre_mim.html">Sobre Mim</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container py-5">
+        <h1 class="display-4">Tecnologias Emergentes</h1>
+        <p class="lead">Aqui estão algumas das tecnologias emergentes que estão moldando o futuro da inovação e da transformação digital.</p>
+
+        <!-- Seção de Tecnologias -->
+        <section id="blockchain" class="py-4">
+            <h2>Blockchain</h2>
+            <p>Blockchain é uma tecnologia de registro distribuído que permite transações seguras e transparentes. Ela tem o potencial de transformar vários setores, incluindo finanças, saúde e cadeia de suprimentos.</p>
+            <ul>
+                <li>Criptomoedas (como Bitcoin e Ethereum)</li>
+                <li>Contratos inteligentes</li>
+                <li>Aplicações descentralizadas (dApps)</li>
+            </ul>
+        </section>
+
+        <section id="automacao-robotica" class="py-4">
+            <h2>Automação e Robótica</h2>
+            <p>A automação e a robótica estão revolucionando a indústria com a criação de sistemas autônomos para realizar tarefas repetitivas ou perigosas. O uso de IA e aprendizado de máquina está acelerando essa transformação.</p>
+            <ul>
+                <li>Robôs colaborativos (Cobots)</li>
+                <li>Veículos autônomos</li>
+                <li>Automação de processos industriais</li>
+            </ul>
+        </section>
+
+        <section id="edge-computing" class="py-4">
+            <h2>Edge Computing</h2>
+            <p>Edge Computing refere-se ao processamento de dados perto da fonte, em vez de depender de servidores centralizados. Isso reduz a latência e melhora a eficiência para aplicações em tempo real.</p>
+            <ul>
+                <li>Redução de latência para IoT</li>
+                <li>Maior eficiência em redes 5G</li>
+                <li>Aplicações em saúde e automação industrial</li>
+            </ul>
+        </section>
+
+        <section id="inteligencia-artificial" class="py-4">
+            <h2>Inteligência Artificial (IA)</h2>
+            <p>A Inteligência Artificial está transformando a maneira como interagimos com a tecnologia, permitindo a automação de tarefas, a análise de grandes volumes de dados e até mesmo a criação de algoritmos autônomos.</p>
+            <ul>
+                <li>Processamento de linguagem natural (NLP)</li>
+                <li>Visão computacional</li>
+                <li>Aprendizado de máquina e deep learning</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
